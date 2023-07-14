@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGlobe, faL } from '@fortawesome/free-solid-svg-icons'
 import { faInstagram } from '@fortawesome/free-brands-svg-icons'
-import { ProfileVec } from "../../../public/img/profile_vec.jpeg"
 import './style.css'
 import MailButton from './mailButton'
 
@@ -79,7 +78,7 @@ export default function Page2({ style, indexCarousel, setIndexCarousel }) {
                             <p className='m-0'>{CEO_position}</p>
                             <p className='m-0'>{company_name}</p>
                         </div>
-                        <img src={ProfileVec} alt='' className='profile-vec m-2' />
+                        <img src='./invitation-card/img/profile_vec.jpeg' alt='' className='profile-vec m-2' />
                     </div>
                 </main>
 
