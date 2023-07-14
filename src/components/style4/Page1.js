@@ -2,6 +2,8 @@ import React, { useState } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGlobe } from '@fortawesome/free-solid-svg-icons'
 import { faInstagram } from '@fortawesome/free-brands-svg-icons'
+import { Commodity } from "../../../public/img/LG-second.jpeg"
+import { Logo } from '../../../public/img/logo.jpeg'
 import './style.css'
 
 export default function Page1({ indexCarousel, setIndexCarousel, style }) {
@@ -69,22 +71,22 @@ export default function Page1({ indexCarousel, setIndexCarousel, style }) {
                             </> : null}
                         <div className={`image-shape ${style} ${style}-first`}>
                             <div className={`image-shape-background ${style}-background`}>
-                                <img src="/img/LG-second.jpeg" alt='' />
+                                <img src={Commodity} alt='' />
                             </div>
                         </div>
                         <div className={`image-shape ${style} ${style}-second `}>
                             <div className={`image-shape-background ${style}-background`}>
-                                <img src="/img/LG-second.jpeg" alt='' />
+                                <img src={Commodity} alt='' />
                             </div>
                         </div>
                         <div className={`image-shape ${style} ${style}-third`}>
                             <div className={`image-shape-background ${style}-background`}>
-                                <img src="/img/LG-second.jpeg" alt='' />
+                                <img src={Commodity} alt='' />
                             </div>
                         </div>
                         <div className={`image-shape ${style} ${style}-forth`}>
                             <div className={`image-shape-background ${style}-background`}>
-                                <img src="/img/LG-second.jpeg" alt='' />
+                                <img src={Commodity} alt='' />
                             </div>
                         </div>
                     </div>
@@ -125,7 +127,7 @@ export default function Page1({ indexCarousel, setIndexCarousel, style }) {
 
                 <footer>
                     <button className='about-us' onClick={handleChangeSlide}>
-                        <img alt='' src="/img/logo.jpeg" className='logo' />
+                        <img alt='' src={Logo} className='logo' />
                         درباره ما
                     </button>
                 </footer>
