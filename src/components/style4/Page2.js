@@ -78,7 +78,7 @@ export default function Page2({ style, indexCarousel, setIndexCarousel }) {
                             <p className='m-0'>{CEO_position}</p>
                             <p className='m-0'>{company_name}</p>
                         </div>
-                        <img src='./invitation-card/img/profile_vec.jpeg' alt='' className='profile-vec m-2' />
+                        <img src='/invitation-card/img/profile_vec.jpeg' alt='' className='profile-vec m-2' />
                     </div>
                 </main>
 

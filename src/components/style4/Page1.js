@@ -69,22 +69,22 @@ export default function Page1({ indexCarousel, setIndexCarousel, style }) {
                             </> : null}
                         <div className={`image-shape ${style} ${style}-first`}>
                             <div className={`image-shape-background ${style}-background`}>
-                                <img src="./invitation-card/img/LG-second.jpeg" alt='' />
+                                <img src="/invitation-card/img/LG-second.jpeg" alt='' />
                             </div>
                         </div>
                         <div className={`image-shape ${style} ${style}-second `}>
                             <div className={`image-shape-background ${style}-background`}>
-                                <img src="./invitation-card/img/LG-second.jpeg" alt='' />
+                                <img src="/invitation-card/img/LG-second.jpeg" alt='' />
                             </div>
                         </div>
                         <div className={`image-shape ${style} ${style}-third`}>
                             <div className={`image-shape-background ${style}-background`}>
-                                <img src="./invitation-card/img/LG-second.jpeg" alt='' />
+                                <img src="/invitation-card/img/LG-second.jpeg" alt='' />
                             </div>
                         </div>
                         <div className={`image-shape ${style} ${style}-forth`}>
                             <div className={`image-shape-background ${style}-background`}>
-                                <img src="./invitation-card/img/LG-second.jpeg" alt='' />
+                                <img src="/invitation-card/img/LG-second.jpeg" alt='' />
                             </div>
                         </div>
                     </div>
@@ -125,7 +125,7 @@ export default function Page1({ indexCarousel, setIndexCarousel, style }) {
 
                 <footer>
                     <button className='about-us' onClick={handleChangeSlide}>
-                        <img alt='' src="./invitation-card/img/logo.jpeg" className='logo' />
+                        <img alt='' src="/invitation-card/img/logo.jpeg" className='logo' />
                         درباره ما
                     </button>
                 </footer>
