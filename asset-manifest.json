@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/invitation-card/static/css/main.23408b5b.css",
-    "main.js": "/invitation-card/static/js/main.0d58f44d.js",
+    "main.js": "/invitation-card/static/js/main.95a8775e.js",
     "static/js/787.28cb0dcd.chunk.js": "/invitation-card/static/js/787.28cb0dcd.chunk.js",
     "static/media/IranNastaliq.ttf": "/invitation-card/static/media/IranNastaliq.244ccc29fc6f22b136fa.ttf",
     "static/media/A Ordibehesht shablon.TTF": "/invitation-card/static/media/A Ordibehesht shablon.3e12542c9bc955ab0bff.TTF",
@@ -9,11 +9,11 @@
     "index.html": "/invitation-card/index.html",
     "static/media/wave.svg": "/invitation-card/static/media/wave.59ea21dbe6ecd2e808fc.svg",
     "main.23408b5b.css.map": "/invitation-card/static/css/main.23408b5b.css.map",
-    "main.0d58f44d.js.map": "/invitation-card/static/js/main.0d58f44d.js.map",
+    "main.95a8775e.js.map": "/invitation-card/static/js/main.95a8775e.js.map",
     "787.28cb0dcd.chunk.js.map": "/invitation-card/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.23408b5b.css",
-    "static/js/main.0d58f44d.js"
+    "static/js/main.95a8775e.js"
   ]
 }
