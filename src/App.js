@@ -1,55 +1,52 @@
-import { useEffect, useState } from 'react';
-import './App.css';
-import { getTokenObject } from './helper/authorization';
+// import { useEffect, useState } from 'react';
+// import './App.css';
+import Brochure from './components/style1/Brochure/Brochure';
+// import { getTokenObject } from './helper/authorization';
+// import Catalog from './components/Catalog';
+import 'react-responsive-carousel/lib/styles/carousel.min.css';
+import ExmOne from './components/style3';
+import Sample from './components/style4';
 
 function App() {
-  const token = getTokenObject()
-  const [data, setData] = useState([]);
-  const [query, setQuery] = useState();
+  // const token = getTokenObject()
+  // const [data, setData] = useState([]);
 
-  useEffect(() => {
-    // fetch(`http://185.97.116.249/invitation-card/show/16840037471`)
-    //   .then(res => res.json())
-    //   .then(result => {
-    //     // setData(result);
-    //     console.log(result);
-    //   })
-    fetch('http://185.97.116.249/invitation-card/show/16840037471', {
-      headers: { Authentication: 'Bearer ' + token?.Authorization }
-    })
-      .then(resp => resp.json())
-      .then(json => console.log(JSON.stringify(json)))
 
-  }, []);
+  // useEffect(() => {
 
-  const onHandlerChange = (event) => {
-    const value = event?.target?.value;
-    setQuery(value)
-  }
+  //   fetch('http://185.97.116.249/invitation-card/show/16840037471', {
+  //     headers: { Authentication: 'Bearer ' + token?.Authorization }
+  //   })
+  //     .then(resp => resp.json())
+  //     .then(json => console.log(JSON.stringify(json)))
+
+  // }, []);
+
+
 
   return (
-    <div className="flex flex-col justify-center items-center h-full max-h-full">
-      <div className='flex justify-center my-8 w-full'>
-        <input
-          name='myRecipe'
-          type="text"
-          className='border-2	rounded-md p-3 w-10/12  focus:outline-none focus:ring focus:ring-violet-300 focus:border-none focus:duration-100 duration-700'
-          onChange={onHandlerChange}
-          placeholder="write your recipe"
-        />
-      </div>
+    // <div className="max-w-xl mx-auto bg-white rounded-xl shadow-md overflow-hidden xl:max-w-2xl">
+    //   <div className="xl:flex">
+    //     <div className="xl:shrink-0">
+    //       <img className="h-48 w-full object-cover xl:h-full xl:w-48" src="./img/LG-first.jpeg" alt="Modern building architecture" />
+    //     </div>
+    //     <div className="p-8">
+    //       <div className="uppercase tracking-wide text-sm text-indigo-500 font-semibold">Company retreats</div>
+    //       <a href="#" className="block mt-1 text-lg leading-tight font-medium text-black hover:underline">Incredible accommodation for your team</a>
+    //       <p className="mt-2 text-slate-500">Looking to take your team away on a retreat to enjoy awesome food and take in some sunshine? We have a list of places to do just that.</p>
+    //     </div>
+    //   </div>
+    // </div>
+    <div className="max-w-xl mx-auto overflow-hidden xl:max-w-2xl">
       <div>
-        <ul>
-          {data.length > 0 ? data?.map((item, index) =>
-            <li key={index} className="m-8">
-              <p>{item.title}</p>
-              <p>{item.ingredients}</p>
-              <p>{item.instructions}</p>
-            </li>
-          ) : <li><p className='text-orange-600 text-center	'>There is no recipe</p></li>}
-        </ul>
+        {/* <Catalog /> */}
+        {/* <Brochure /> */}
+        {/* <ExmOne /> */}
+        <Sample />
+
       </div>
     </div>
+
   );
 }
 

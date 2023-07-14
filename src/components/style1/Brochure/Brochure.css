@@ -1,0 +1,38 @@
+.page1 {
+  text-align: center;
+}
+
+.slogan {
+  font-size: 24px;
+  margin-top: 20px;
+}
+.image-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.product-image {
+  width: 300px;
+  height: auto;
+  margin: 0 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+.brand-logo {
+  width: 200px;
+  height: auto;
+  margin: 20px 0;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.social-icons a {
+  margin: 0 10px;
+  color: #000;
+  font-size: 24px;
+}
